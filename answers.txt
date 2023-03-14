@@ -1,0 +1,14 @@
+1. What do you see in the browser? When you open another tab and perform a click/drag action, what happens?
+A black rectangle with a bunny in it. The bunny's position is updated in both tabs.
+
+2. What are some of the differences between TypeScript and JavaScript?
+Typescript is known more as an object oriented programming language while javascript is a prototype based language.
+
+3. Why is a web application bundler (Parcel, Webpack, Rollup, etc.) useful for modern web projects? What are some features that ParcelJS provides?
+They provide the abiity to automatically process code, which increases performance. ParcelJS has features like image compression and running a development server.
+
+4. What are the different values for the readyState a WebSocket can be in? Briefly describe what each state means.
+0 - connecting, sockets has been created but not yet open
+1 - open, socket is ready to communicate
+2 - closing, socket is in the process of closing
+3 - closed, socket connection is closed
